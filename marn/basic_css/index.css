@@ -1,0 +1,135 @@
+/* #outer {
+    height: 500px;
+    width: 70;
+    border: 2px solid black;
+}
+div {
+ width: 600px;
+ height: 200px;
+ background-color: red;
+ margin: 10px auto;
+background-image: url("gym-plus.jpg");
+background-size:cover;
+background-position :center;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block ;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black ;
+    transition: 1s;
+}
+.desc{
+    padding: 0 2px 0 2px;
+}
+img{
+    width: 150px;
+    border-radius: 5px 5px 0 0 ;
+    
+}
+.card:hover {
+color:rgb(12, 108, 20);
+border-bottom: rgb(184, 20, 20);
+border: red;
+transition: 1s;
+box-shadow:  ;
+}
+.img{
+border: radius 50%;
+
+}
+
+ */
+ /* #container {
+    height: 400px;
+    width: 90%;
+    background-color: white;
+    margin: 20px auto; 
+    border: 2px solid black;
+    display: flex;
+
+ } */
+ h1{
+    text-align:left;
+    color: bisque;
+ }
+ /* #container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+     } */
+
+ .box{
+    height: 150px;
+    width: 400px;
+    background:purple;
+    animation-name: fontAnimal;
+    animation-name: colAnimate;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+    animation-direction: alternate;
+    animation-iteration-count: 5;
+
+}
+@keyframes fontAnimal {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 50px;
+    }
+}
+
+    @keyframes colAnimate{
+        0%{
+            background-color:green;
+          }
+       50%{
+        background-color:yellow;
+      }
+    100%{
+        background-color:blue;
+    }
+
+    body{
+        width: 100%;
+
+    }
+        
+    }
+    span{
+        color: blueviolet;
+    }
+    h3{
+        color:rgb(5, 28, 28);
+       
+    }
+    
+    .card
+    {
+        border: 2px solid black;
+        height: 350px;
+        width: 350px;
+        padding: 10px;s
+        margin:10px;
+        border-radius: 25px 25px 25px 25px;
+    }
+    img{
+        width: 340px;
+        height: 150px;
+        border-radius: 25px;
+    }
+    #pets{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    @media(max-width:450px){
+       #pets{
+            flex-wrap: wrap;
+        }
+    }
