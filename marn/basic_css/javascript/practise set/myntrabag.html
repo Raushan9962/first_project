@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myntra bag Exercise</title>
+<link rel="stylesheet" href="/first_project/marn/basic_css/javascript/practise set/myntrabag.css">
+</head>
+<body>
+    <!-- /* update the items on  myntra Bag */ -->
+<button class="bag-button"onclick="
+    cartQuantity = cartQuantity + 1;
+    document.querySelector('#cart-summary').
+    innerText = `your Bag has ${cartQuantity}
+    items`;
+    ">Add to Bag</button>
+ </button>
+<button class="wish-button" onclick="
+cartQuantity = cartQuantity - 1;
+    document.querySelector('#cart-summary').
+    innerText = `your Bag has ${cartQuantity}
+    items`;
+
+"> move to Wishlist</button>
+
+
+<button class="bag-button" onclick="
+cartQuantity = cartQuantity + 2;
+    document.querySelector('#cart-summary').
+    innerText = `your Bag has ${cartQuantity}
+    items`;
+">Add 1+1 sale item</button>
+
+
+<h1 id="cart-summary"></h1>
+
+<script>
+    let cartQuantity =0;
+    document.querySelector('#cart-summary').
+    innerText ='your Bag has ' + cartQuantity +
+   ' item'; 
+  
+</script>
+<body>
+    
+</body>
+</html>
+

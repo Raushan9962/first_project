@@ -1,0 +1,113 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a052d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #491010;
+    transition:rgb(123, 13, 13);
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.link:hover{
+ background: red;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ac8f8f;
+    transition: width 0.5s ease-in-out;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #491010;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Home section */
+
+
+/* Classes section */
+#classes {
+    background-color: #340808;
+    height: 100px;
+    width: 50px;
+    transition: width 0.5s ease-in-out;
+    text-align: center;
+}
+
+#class-schedule {
+    list-style-type: none;
+    padding: 0;
+    height: 100px;
+    width: 50px;
+    transition: width 0.5s ease-in-out;
+}
+
+#class-schedule li {
+    
+    margin-bottom: 15px; /* Applies 15px margin only to the bottom */
+}
+    
+
+/* Membership section */
+#membership {
+    background-color: #f4f4f4;
+
+}
+
+/* Contact section */
+#contact {
+    background-color: #e6e6e6;
+}
+
+address {
+    margin: 20px 0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    
+    section {
+        padding: 30px 10px;
+    }
+    
+    footer {
+        padding: 10px;
+    }
+}
