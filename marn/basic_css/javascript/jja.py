@@ -1,7 +1,3 @@
-a={
-    "ss":5,
-    "ty":55,
-
-}
-for i,j in a.items():
-    print(i,j)
+x=['ai','hhdd','hfhhf']
+x.remove('ai')
+print(x) 
